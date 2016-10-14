@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -487,156 +487,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="drv88xx">
-<packages>
-<package name="TSSOP-28">
-<wire x1="-4.7896" y1="-2.1828" x2="4.7896" y2="-2.1828" width="0.1524" layer="21"/>
-<wire x1="4.7896" y1="2.1828" x2="4.7896" y2="-2.1828" width="0.1524" layer="21"/>
-<wire x1="4.7896" y1="2.1828" x2="-4.7896" y2="2.1828" width="0.1524" layer="21"/>
-<wire x1="-4.7896" y1="-2.1828" x2="-4.7896" y2="2.1828" width="0.1524" layer="21"/>
-<circle x="-3.9256" y="-1.3442" radius="0.401" width="0" layer="21"/>
-<smd name="1" x="-4.225" y="-3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="2" x="-3.575" y="-3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="3" x="-2.925" y="-3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="4" x="-2.275" y="-3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="5" x="-1.625" y="-3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="6" x="-0.975" y="-3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="7" x="-0.325" y="-3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="8" x="0.325" y="-3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="9" x="0.975" y="-3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="10" x="1.625" y="-3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="11" x="2.275" y="-3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="12" x="2.925" y="-3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="13" x="3.575" y="-3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="14" x="4.225" y="-3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="15" x="4.225" y="3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="16" x="3.575" y="3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="17" x="2.925" y="3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="18" x="2.275" y="3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="19" x="1.625" y="3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="20" x="0.975" y="3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="21" x="0.325" y="3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="22" x="-0.325" y="3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="23" x="-0.975" y="3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="24" x="-1.625" y="3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="25" x="-2.275" y="3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="26" x="-2.925" y="3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="27" x="-3.575" y="3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="28" x="-4.225" y="3.0875" dx="0.35" dy="1" layer="1"/>
-<smd name="EXP" x="0" y="0" dx="5" dy="3" layer="1"/>
-<text x="-5.1706" y="-2.0828" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="6.1612" y="-2.0828" size="1.016" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<rectangle x1="-4.375" y1="-3.3" x2="-4.075" y2="-2.25" layer="51"/>
-<rectangle x1="-3.725" y1="-3.3" x2="-3.425" y2="-2.25" layer="51"/>
-<rectangle x1="-3.075" y1="-3.3" x2="-2.775" y2="-2.25" layer="51"/>
-<rectangle x1="-2.425" y1="-3.3" x2="-2.125" y2="-2.25" layer="51"/>
-<rectangle x1="-1.775" y1="-3.3" x2="-1.475" y2="-2.25" layer="51"/>
-<rectangle x1="-1.125" y1="-3.3" x2="-0.825" y2="-2.25" layer="51"/>
-<rectangle x1="-0.475" y1="-3.3" x2="-0.175" y2="-2.25" layer="51"/>
-<rectangle x1="0.175" y1="-3.3" x2="0.475" y2="-2.25" layer="51"/>
-<rectangle x1="0.825" y1="-3.3" x2="1.125" y2="-2.25" layer="51"/>
-<rectangle x1="1.475" y1="-3.3" x2="1.775" y2="-2.25" layer="51"/>
-<rectangle x1="2.125" y1="-3.3" x2="2.425" y2="-2.25" layer="51"/>
-<rectangle x1="2.775" y1="-3.3" x2="3.075" y2="-2.25" layer="51"/>
-<rectangle x1="3.425" y1="-3.3" x2="3.725" y2="-2.25" layer="51"/>
-<rectangle x1="4.075" y1="-3.3" x2="4.375" y2="-2.25" layer="51"/>
-<rectangle x1="4.075" y1="2.25" x2="4.375" y2="3.3" layer="51" rot="R180"/>
-<rectangle x1="3.425" y1="2.25" x2="3.725" y2="3.3" layer="51" rot="R180"/>
-<rectangle x1="2.775" y1="2.25" x2="3.075" y2="3.3" layer="51" rot="R180"/>
-<rectangle x1="2.125" y1="2.25" x2="2.425" y2="3.3" layer="51" rot="R180"/>
-<rectangle x1="1.475" y1="2.25" x2="1.775" y2="3.3" layer="51" rot="R180"/>
-<rectangle x1="0.825" y1="2.25" x2="1.125" y2="3.3" layer="51" rot="R180"/>
-<rectangle x1="0.175" y1="2.25" x2="0.475" y2="3.3" layer="51" rot="R180"/>
-<rectangle x1="-0.475" y1="2.25" x2="-0.175" y2="3.3" layer="51" rot="R180"/>
-<rectangle x1="-1.125" y1="2.25" x2="-0.825" y2="3.3" layer="51" rot="R180"/>
-<rectangle x1="-1.775" y1="2.25" x2="-1.475" y2="3.3" layer="51" rot="R180"/>
-<rectangle x1="-2.425" y1="2.25" x2="-2.125" y2="3.3" layer="51" rot="R180"/>
-<rectangle x1="-3.075" y1="2.25" x2="-2.775" y2="3.3" layer="51" rot="R180"/>
-<rectangle x1="-3.725" y1="2.25" x2="-3.425" y2="3.3" layer="51" rot="R180"/>
-<rectangle x1="-4.375" y1="2.25" x2="-4.075" y2="3.3" layer="51" rot="R180"/>
-</package>
-</packages>
-<symbols>
-<symbol name="DRV8825">
-<wire x1="-15.24" y1="25.4" x2="-15.24" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="25.4" x2="7.62" y2="25.4" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-30.48" x2="7.62" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-30.48" x2="7.62" y2="25.4" width="0.254" layer="94"/>
-<pin name="V3P3OUT" x="-20.32" y="22.86" length="middle" direction="out"/>
-<pin name="AVREF" x="-20.32" y="15.24" length="middle" direction="in"/>
-<pin name="BVREF" x="-20.32" y="12.7" length="middle" direction="in"/>
-<pin name="ENBL" x="-20.32" y="2.54" length="middle" direction="in" function="dot"/>
-<pin name="STEP" x="-20.32" y="0" length="middle" direction="in"/>
-<pin name="DIR" x="-20.32" y="-2.54" length="middle" direction="in"/>
-<pin name="DECAY" x="-20.32" y="-5.08" length="middle" direction="in"/>
-<pin name="MODE0" x="-20.32" y="-7.62" length="middle" direction="in"/>
-<pin name="MODE1" x="-20.32" y="-10.16" length="middle" direction="in"/>
-<pin name="MODE2" x="-20.32" y="-12.7" length="middle" direction="in"/>
-<pin name="RESET" x="-20.32" y="-15.24" length="middle" direction="in" function="dot"/>
-<pin name="SLEEP" x="-20.32" y="-17.78" length="middle" direction="in" function="dot"/>
-<pin name="HOME" x="-20.32" y="-22.86" length="middle" direction="out" function="dot"/>
-<pin name="FAULT" x="-20.32" y="-25.4" length="middle" direction="out" function="dot"/>
-<pin name="GND_0" x="-5.08" y="-35.56" length="middle" direction="pwr" rot="R90"/>
-<pin name="GND_1" x="-2.54" y="-35.56" length="middle" direction="pwr" rot="R90"/>
-<pin name="CP1" x="12.7" y="22.86" length="middle" rot="R180"/>
-<pin name="CP2" x="12.7" y="20.32" length="middle" rot="R180"/>
-<pin name="VCP" x="12.7" y="15.24" length="middle" rot="R180"/>
-<pin name="VMA" x="12.7" y="7.62" length="middle" direction="pwr" rot="R180"/>
-<pin name="AOUT1" x="12.7" y="2.54" length="middle" direction="out" rot="R180"/>
-<pin name="AOUT2" x="12.7" y="0" length="middle" direction="out" rot="R180"/>
-<pin name="ISENA" x="12.7" y="-5.08" length="middle" direction="out" rot="R180"/>
-<pin name="VMB" x="12.7" y="-15.24" length="middle" direction="pwr" rot="R180"/>
-<pin name="BOUT1" x="12.7" y="-20.32" length="middle" direction="out" rot="R180"/>
-<pin name="BOUT2" x="12.7" y="-22.86" length="middle" direction="out" rot="R180"/>
-<pin name="ISENB" x="12.7" y="-27.94" length="middle" direction="out" rot="R180"/>
-<pin name="GND_PAD" x="-2.54" y="30.48" length="middle" direction="pwr" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="DRV8825PWP">
-<gates>
-<gate name="G$1" symbol="DRV8825" x="-17.78" y="7.62"/>
-</gates>
-<devices>
-<device name="" package="TSSOP-28">
-<connects>
-<connect gate="G$1" pin="AOUT1" pad="5"/>
-<connect gate="G$1" pin="AOUT2" pad="7"/>
-<connect gate="G$1" pin="AVREF" pad="12"/>
-<connect gate="G$1" pin="BOUT1" pad="10"/>
-<connect gate="G$1" pin="BOUT2" pad="8"/>
-<connect gate="G$1" pin="BVREF" pad="13"/>
-<connect gate="G$1" pin="CP1" pad="1"/>
-<connect gate="G$1" pin="CP2" pad="2"/>
-<connect gate="G$1" pin="DECAY" pad="19"/>
-<connect gate="G$1" pin="DIR" pad="20"/>
-<connect gate="G$1" pin="ENBL" pad="21"/>
-<connect gate="G$1" pin="FAULT" pad="18"/>
-<connect gate="G$1" pin="GND_0" pad="14"/>
-<connect gate="G$1" pin="GND_1" pad="28"/>
-<connect gate="G$1" pin="GND_PAD" pad="EXP"/>
-<connect gate="G$1" pin="HOME" pad="27"/>
-<connect gate="G$1" pin="ISENA" pad="6"/>
-<connect gate="G$1" pin="ISENB" pad="9"/>
-<connect gate="G$1" pin="MODE0" pad="24"/>
-<connect gate="G$1" pin="MODE1" pad="25"/>
-<connect gate="G$1" pin="MODE2" pad="26"/>
-<connect gate="G$1" pin="RESET" pad="16"/>
-<connect gate="G$1" pin="SLEEP" pad="17"/>
-<connect gate="G$1" pin="STEP" pad="22"/>
-<connect gate="G$1" pin="V3P3OUT" pad="15"/>
-<connect gate="G$1" pin="VCP" pad="3"/>
-<connect gate="G$1" pin="VMA" pad="4"/>
-<connect gate="G$1" pin="VMB" pad="11"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="special">
 <description>&lt;b&gt;Special Devices&lt;/b&gt;&lt;p&gt;
 7-segment displays, switches, heatsinks, crystals, transformers, etc.&lt;p&gt;
@@ -1044,9 +894,6 @@ Grid 5.00 mm&lt;p&gt;
 </classes>
 <parts>
 <part name="U$1" library="stm32f4" deviceset="STM32F4V_100PIN_GPSBOARD" device=""/>
-<part name="U$2" library="drv88xx" deviceset="DRV8825PWP" device=""/>
-<part name="U$3" library="drv88xx" deviceset="DRV8825PWP" device=""/>
-<part name="U$4" library="drv88xx" deviceset="DRV8825PWP" device=""/>
 <part name="Q1" library="special" deviceset="XTAL/S" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="VDD" device=""/>
@@ -1060,14 +907,10 @@ Grid 5.00 mm&lt;p&gt;
 <sheets>
 <sheet>
 <plain>
-<text x="88.9" y="91.44" size="1.778" layer="91">8825 option</text>
 <text x="91.44" y="15.24" size="1.778" layer="91">L6470 option</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="17.78" y="63.5"/>
-<instance part="U$2" gate="G$1" x="132.08" y="91.44"/>
-<instance part="U$3" gate="G$1" x="172.72" y="91.44"/>
-<instance part="U$4" gate="G$1" x="213.36" y="91.44"/>
 <instance part="Q1" gate="G$1" x="-58.42" y="111.76" rot="R180"/>
 <instance part="SUPPLY1" gate="GND" x="-58.42" y="99.06"/>
 <instance part="SUPPLY2" gate="G$1" x="-58.42" y="86.36"/>
