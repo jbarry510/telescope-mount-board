@@ -19464,9 +19464,9 @@ Source: www.kingbright.com</description>
 <label x="154.94" y="-165.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="L6470_3_OUTA" gate="G$1" pin="1"/>
-<wire x1="127" y1="-111.76" x2="121.92" y2="-111.76" width="0.1524" layer="91"/>
-<label x="121.92" y="-111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="L6470_3_OUTA" gate="G$1" pin="2"/>
+<wire x1="127" y1="-114.3" x2="121.92" y2="-114.3" width="0.1524" layer="91"/>
+<label x="121.92" y="-114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="3_OUT2A" class="0">
@@ -19476,9 +19476,9 @@ Source: www.kingbright.com</description>
 <label x="154.94" y="-167.64" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="L6470_3_OUTA" gate="G$1" pin="2"/>
-<wire x1="127" y1="-114.3" x2="121.92" y2="-114.3" width="0.1524" layer="91"/>
-<label x="121.92" y="-114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="L6470_3_OUTA" gate="G$1" pin="1"/>
+<wire x1="127" y1="-111.76" x2="121.92" y2="-111.76" width="0.1524" layer="91"/>
+<label x="121.92" y="-111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="3_OUT1B" class="0">
