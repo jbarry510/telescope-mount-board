@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -19916,7 +19916,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="MTR+" library="con-amp-quick" deviceset="M02" device=""/>
 <part name="MTR-" library="con-amp-quick" deviceset="M02" device=""/>
 <part name="VCC3" library="supply1" deviceset="VCC" device=""/>
-<part name="C7" library="rcl" deviceset="CPOL-US" device="UD-10X10" value="100uF"/>
+<part name="C7" library="rcl" deviceset="CPOL-US" device="UD-10X10" value="330uF"/>
 <part name="C8" library="rcl" deviceset="C-US" device="C0805" value="0.22uF"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="C10" library="rcl" deviceset="C-US" device="C0805" value="0.1uF"/>
