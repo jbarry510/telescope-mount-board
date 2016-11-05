@@ -26,7 +26,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -706,6 +706,25 @@ Fall 2016
 <vertex x="29.143325" y="30.226"/>
 <vertex x="29.164915625" y="30.226"/>
 <vertex x="29.191584375" y="30.226"/>
+</polygon>
+<polygon width="0.4064" layer="29">
+<vertex x="74.676" y="66.802"/>
+<vertex x="77.724" y="66.802"/>
+<vertex x="77.724" y="61.722"/>
+<vertex x="74.676" y="61.722"/>
+</polygon>
+<polygon width="0.4064" layer="29">
+<vertex x="75.438" y="23.368"/>
+<vertex x="78.486" y="23.368"/>
+<vertex x="78.486" y="18.034"/>
+<vertex x="75.438" y="18.034"/>
+</polygon>
+<polygon width="0.4064" layer="29">
+<vertex x="74.93" y="46.228"/>
+<vertex x="77.978" y="46.228"/>
+<vertex x="77.978" y="40.894"/>
+<vertex x="74.93" y="40.894"/>
+<vertex x="74.93" y="41.148"/>
 </polygon>
 </plain>
 <libraries>
@@ -6242,6 +6261,12 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 </signals>
 <errors>
+<approved hash="18,29,9b4c83017310653d"/>
+<approved hash="18,29,b25caa115a204c4d"/>
+<approved hash="18,29,2eda361c72ce0e42"/>
+<approved hash="18,29,e1fdd45728000ec2"/>
+<approved hash="18,29,2f90b8f389b1eed1"/>
+<approved hash="18,29,3c3d7c68e97d08ca"/>
 <approved hash="19,1,be8c11f7b18de770"/>
 <approved hash="5,1,45b4ed6117aabdef"/>
 <approved hash="19,1,23d78b478cfddcd6"/>
