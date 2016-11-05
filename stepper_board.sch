@@ -20005,7 +20005,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP3" library="testpad" deviceset="PTR1" device="B1,27"/>
 <part name="TP4" library="testpad" deviceset="PTR1" device="B1,27"/>
 <part name="RST" library="switch-omron" deviceset="10-XX" device=""/>
-<part name="C31" library="rcl" deviceset="C-US" device="C0805" value="100n"/>
+<part name="C31" library="rcl" deviceset="C-US" device="C0805" value="0.1u"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="R6" library="rcl" deviceset="R-US_" device="R0805" value="4k7"/>

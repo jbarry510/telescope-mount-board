@@ -4421,7 +4421,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="53.848" y="32.385" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="57.912" y="23.368" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C31" library="rcl" package="C0805" value="100n" x="47.244" y="28.956" smashed="yes" rot="R90">
+<element name="C31" library="rcl" package="C0805" value="0.1u" x="47.244" y="28.956" smashed="yes" rot="R90">
 <attribute name="NAME" x="45.974" y="27.686" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="49.784" y="27.686" size="1.27" layer="27" rot="R90"/>
 </element>
